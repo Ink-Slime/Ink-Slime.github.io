@@ -1,0 +1,49 @@
+html {
+  font-family: 'DungGeunMo',Pretendard JP,Pretendard,-apple-system,system-ui,Meiryo,Noto Sans JP,Noto Sans KR,sans-serif;
+}
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color:#1D2B53;
+  color:#FFF1E8;
+}
+
+a:link{
+  color:#29ADFF;
+}
+a:hover{
+  color:#83769C;
+}
+a:active{
+  color:#00E436;
+}
+
+.main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.profile{
+  position:relative;
+  width:128px;
+  height:128px;
+  background-color:blue;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.profile img{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
