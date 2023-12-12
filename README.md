@@ -1,1 +1,1 @@
-# Ink_Slime.github.io
+# Ink-Slime.github.io
