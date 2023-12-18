@@ -13,6 +13,23 @@ body{
   color:#FFF1E8;
 }
 
+.container{
+  display: grid;
+  grid-template-columns: 1fr minmax(128px,1024px) 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+.main{ grid-area: 1 / 2 / 2 / 3; }
+.Left_Side{ grid-area: 1 / 1 / 2 / 2; }
+.Right_Side{ grid-area: 1 / 3 / 2 / 4; }
+
+.shadow{
+  box-shadow:8px 8px 0px rgba(17, 28, 63, 1);
+  border-radius:50%;
+}
+
+
 a:link{
   color:#29ADFF;
 }
@@ -23,7 +40,7 @@ a:active{
   color:#00E436;
 }
 
-.main{
+.main_flex{
   display:flex;
   flex-direction:column;
   justify-content:center;
