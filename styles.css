@@ -15,7 +15,7 @@ body{
 
 .container{
   display: grid;
-  grid-template-columns: 1fr minmax(128px,1024px) 1fr;
+  grid-template-columns: minmax(0px,1fr) minmax(128px,1024px) minmax(0px,1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 8px;
   grid-row-gap: 8px;
